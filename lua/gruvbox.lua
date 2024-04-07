@@ -320,7 +320,7 @@ local function get_groups()
     Question = { link = "GruvboxOrangeBold" },
     WarningMsg = { link = "GruvboxRedBold" },
     LineNr = { fg = colors.bg4 },
-    SignColumn = true and { bg = nil } or { bg = colors.bg1 },
+    SignColumn = { bg = nil },
     Folded = { fg = colors.gray, bg = colors.bg1, italic = config.italic.folds },
     FoldColumn = config.transparent_mode and { fg = colors.gray, bg = nil } or { fg = colors.gray, bg = colors.bg1 },
     Cursor = { reverse = config.inverse },
